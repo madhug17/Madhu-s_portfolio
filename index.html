@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goundla Madhu Goud | AI & ML Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <h1 class="logo">Madhu<span>Flix</span></h1>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+  </header>
+
+  <!-- Hero Section with About -->
+  <section class="hero" id="home">
+    <img class="hero-bg" src="https://gifdb.com/images/high/fight-club-1999-drama-film-g8eak6d51i0rsua8.gif" alt="Fight Club Background">
+    <div class="overlay-dark"></div>
+    <div class="hero-content animate fade-in">
+      <h2>I'm <span class="highlight">Goundla Madhu Goud</span></h2>
+      <p>B.Tech in Computer Science Engineering (AI & ML) at Woxsen University</p>
+      <p>Passionate about Artificial Intelligence, Machine Learning, and Web Development</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/goundla-madhu-goud-511002325" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/madhug17" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+      <button id="exploreBtn">Explore My Work</button>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <h2 class="animate fade-in">Featured Projects</h2>
+    <div class="project-row horizontal-scroll">
+      <div class="project-card animate slide-up">
+        <img src="https://picsum.photos/300/170?1" alt="Weather Prediction">
+        <div class="overlay">
+          <h3>Weather Prediction</h3>
+          <p>Predicts weather using ML models.</p>
+          <a href="https://github.com/madhug17/Vehicle_price_prediction/commit/45c24641433eea0675f6bd94e897a1fc1c830056" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div class="project-card animate slide-up">
+        <img src="https://picsum.photos/300/170?2" alt="Car Price Prediction">
+        <div class="overlay">
+          <h3>Car Price Prediction</h3>
+          <p>Predicts car prices using regression.</p>
+          <a href="https://github.com/madhug17/Vehicle_price_prediction/commit/45c24641433eea0675f6bd94e897a1fc1c830056" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div class="project-card animate slide-up">
+        <img src="https://picsum.photos/300/170?3" alt="Image Classification">
+        <div class="overlay">
+          <h3>Image Classification</h3>
+          <p>TensorFlow CNN model for image labeling.</p>
+          <a href="https://github.com/madhug17/Image-Classification-with-TensorFlow/commit/fa03a0e5b899367c3739d0a93abeec723baa2428" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div class="project-card animate slide-up">
+        <img src="https://picsum.photos/300/170?4" alt="Color Detection">
+        <div class="overlay">
+          <h3>Color Detection</h3>
+          <p>Detects colors using OpenCV.</p>
+          <a href="https://github.com/madhug17/color_detection-/commit/1e8b3e2673baadd1b0b9bac5a0cf8b642827e023" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div class="project-card animate slide-up">
+        <img src="https://picsum.photos/300/170?5" alt="Expense Management">
+        <div class="overlay">
+          <h3>Expense Management</h3>
+          <p>Tracks expenses using Python + JSON.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="skills">
+    <h2 class="animate fade-in">Skills</h2>
+    <div class="skills-icons animate slide-up">
+      <div class="skill"><i class="fab fa-python"></i><span>Python</span></div>
+      <div class="skill"><i class="fab fa-html5"></i><span>HTML</span></div>
+      <div class="skill"><i class="fab fa-css3-alt"></i><span>CSS</span></div>
+      <div class="skill"><i class="fab fa-js"></i><span>JavaScript</span></div>
+      <div class="skill"><i class="fas fa-database"></i><span>JSON</span></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2 class="animate fade-in">Contact</h2>
+    <form id="contactForm" class="animate slide-up">
+      <input type="text" name="from_name" placeholder="Name" required>
+      <input type="email" name="from_email" placeholder="Email" required>
+      <textarea name="message" placeholder="Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Goundla Madhu Goud</p>
+  </footer>
+
+  <script src="portfoilo.js"></script>
+</body>
+</html>
